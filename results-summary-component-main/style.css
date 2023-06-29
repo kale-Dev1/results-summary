@@ -22,5 +22,14 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+main{
+    display: flex;
+}
+.result-box{
+    
+}
