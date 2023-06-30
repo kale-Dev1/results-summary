@@ -17,6 +17,11 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
+
+  /* fonts */
+  --thick: 500;
+  --thicker: 700;
+  --thickest: 800;
 }
 
 body {
@@ -98,6 +103,11 @@ h3 {
   margin: 0;
 }
 
+h3 {
+  color: var(--dark-gray-blue);
+  font-weight: var(--thicker);
+}
+
 .summary-box > div {
   display: flex;
   width: 100%;
@@ -108,6 +118,7 @@ h3 {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
 .reaction {
   color: hsl(var(--light-red));
   background-color: hsl(var(--light-red), 0.1);
@@ -130,6 +141,11 @@ h3 {
   border-radius: 50px;
   justify-content: center;
 }
+
+.number {
+  font-weight: var(--thicker);
+}
+
 .inner {
   display: flex;
   column-gap: 6px;
